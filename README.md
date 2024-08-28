@@ -221,11 +221,98 @@ console.log(t); // [{ id: 70111470, title: 'Die Hard'}, { id: 675465, title: 'Fr
 
 ## [Practice Problem: Octal](https://launchschool.com/lessons/bfc761bc/assignments/b1e4e00d)
 
+```javascript
+function octalToDecimal(numberString) {
+  let chars = numberString.split('')
+  let output = 0
+  let power = 0
+
+  for (let i = (chars.length - 1); i >= 0; i -= 1) {
+    output += (Number(chars[i])) * (8 ** power)
+    power += 1
+  }
+
+  return output
+}
+```
+
+## [Practice Problem: Anagrams](https://launchschool.com/lessons/bfc761bc/assignments/b3d2a692)
+
+```javascript
+function isAnagram(candidate, word) {
+  let sortedCandidate = candidate.split('').sort()
+  let sortedWord = word.split('').sort()
+  for (i = 0; i <= sortedWord.length; i += 1) {
+    if (sortedCandidate[i] !== sortedWord[i]) {
+      return false
+    }
+  }
+  return true
+}
+
+function anagram(word, list) {
+  return list.filter((candidate) => isAnagram(candidate, word))
+}
 
 
-## Practice Problem: Anagrams
+console.log(anagram('listen', ['enlists', 'google', 'inlets', 'banana']));  // [ "inlets" ]
+console.log(anagram('listen', ['enlist', 'google', 'inlets', 'banana']));   // [ "enlist", "inlets" ]
+```
+
+- LS solution uses `every` cleverly
+
 ## Practice Problem: Formatting Bands
-## Practice Problem: Class Records Summary
+
+```
+let bands = [
+  { name: 'sunset rubdown', country: 'UK', active: false },
+  { name: 'women', country: 'Germany', active: false },
+  { name: 'a silver mt. zion', country: 'Spain', active: true },
+];
+
+function capitalizeSentence(sentence) {
+  return sentence.split(' ').map((word) => word[0].toUpperCase() + word.slice(1)).join(' ')
+}
+
+function removeDots(sentence) {
+  let letters = sentence.split('')
+  let output = ''
+  for (i = 0; i < letters.length; i += 1) {
+    if (letters[i] !== '.') {
+      output += letters[i]
+    }
+  } 
+  return output
+}
+
+function processBands(data) {
+  console.log(data[0].name)
+  return data.map((entry) => {
+    return {
+      name: capitalizeSentence(removeDots(entry.name)),
+      country: 'Canada',
+      active: entry.active,
+    }
+  }
+  )
+}
+
+console.log(processBands(bands));
+
+// should return:
+[
+  { name: 'Sunset Rubdown', country: 'Canada', active: false },
+  { name: 'Women', country: 'Canada', active: false },
+  { name: 'A Silver Mt Zion', country: 'Canada', active: true },
+]
+```
+
+- I should have used `band.name = band.name.replace(/\./g, '');`
+
+## [Practice Problem: Class Records Summary](https://launchschool.com/lessons/bfc761bc/assignments/ff1533e4)
+
+
+
 ## Don't Be Afraid to Use Low Level Abstraction
 ## More Exercises
 ## LS215 Lesson 1 Quiz 1
