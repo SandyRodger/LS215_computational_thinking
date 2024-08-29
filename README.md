@@ -313,8 +313,29 @@ console.log(processBands(bands));
 
 
 
-## Don't Be Afraid to Use Low Level Abstraction
+## [Don't Be Afraid to Use Low Level Abstraction](https://launchschool.com/lessons/bfc761bc/assignments/4f67c44f)
+
+
+
 ## More Exercises
 ## LS215 Lesson 1 Quiz 1
 ![image](https://github.com/user-attachments/assets/30163f94-c812-4ac6-ac38-72704628ec74)
 ![image](https://github.com/user-attachments/assets/8a626f87-f12f-4bb8-a7b3-fb209e10de42)
+
+# [String and Text Processing](https://launchschool.com/lessons/08996120/assignments)
+
+1	[String Processing Patterns](https://launchschool.com/lessons/08996120/assignments/da21fd18)
+2	String Methods
+3	Practice Problems: Strings
+4	Regular Expressions
+5	Reverse a String
+6	Acronym
+7	Email Validation
+8	Matching Parentheses
+9	Sentiment Analysis 1
+10	Sentiment Analysis 2
+11	Mail Count
+12	Code Review: Longest Sentence
+13	Reference Solution: Longest Sentence
+14	More Exercises
+15	LS215 Lesson 2 Quiz 1
