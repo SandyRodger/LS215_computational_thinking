@@ -325,14 +325,84 @@ console.log(processBands(bands));
 # [String and Text Processing](https://launchschool.com/lessons/08996120/assignments)
 
 1	[String Processing Patterns](https://launchschool.com/lessons/08996120/assignments/da21fd18)
+
+- failed to save these notes.
+
 2	String Methods
+
+- failed to save these notes.
+
 3	Practice Problems: Strings
 4	Regular Expressions
+
 5	Reverse a String
-6	Acronym
-7	Email Validation
+
+## [Acronym](https://launchschool.com/lessons/08996120/assignments/e06e683a)
+
+## [Email Validation](https://launchschool.com/lessons/08996120/assignments/7bb83747)
+
+- This problem took me 2 hours, largely because I didn't take time to understand the problem before starting to code. When will I learn? And the LS solution is depressingly concise.
+
+- My code: 
+
+```javascript
+function invalidLocalAddress(local) {
+  return (local.split('').filter((char) => /[a-z0-9]/i.test(char)).length !== local.length);
+}
+
+function invalidDomainAddress(domain) {
+
+  let domainArray = domain.split('.')
+  if (domainArray.length < 2) {return false}
+  
+  const multipleDots = new RegExp('/\.\./', 'i');
+  if (multipleDots.test(domain)) {return false}
+
+  const onlyLetters = new RegExp('[a-z]', 'i');
+  const nonLetters = new RegExp('[^a-z]', 'i');
+
+  return domainArray.every((component) => 
+    (onlyLetters.test(component)) &&
+    (!nonLetters.test(component))
+  )
+}
+
+function isValidEmail(email) {
+
+  let local = email.split('@')[0];
+  let domain = email.split('@')[1];
+  
+  if (
+    !email.split('').includes('@') ||
+    invalidLocalAddress(local) ||
+    invalidDomainAddress(domain)
+    ) {return false};
+
+  return true
+}
+```
+
+- LS code:
+
+```javascript
+function isValidEmail(email) {
+  return /^[a-z0-9]+@([a-z]+\.)+[a-z]+$/i.test(email);
+}
+```
+
+- This regex means:
+  - `^` This is the start of the line, from which point we start comparing. Not anywhere in the string.
+  - `[a-z0-9]` : This is the local address and it has to contain only letters and numbers (the `i` tag at the end makes these case insensitive.
+  - `+` this tells the regex that all this must be followed by the next bit. Just like string concatenation.
+  - `@` is just that.
+  - I'm not sure I can explain why we need the `+` in front of the `@`, but not after it.
+  - `([a-z])+\.)` This says match any number of letters followed by a dot (which as a special character needs to be escaped by the forward slash). The round parentheses mean you can have this as many times as you want, as long as there is a single dot at the end.
+  - This must be followed by more letters, so `[a-z]`. As long as this is done once, we can ignore the rest.
+  - And the the end of the line `$`.
+  
+
 8	Matching Parentheses
-9	Sentiment Analysis 1
+## [9	Sentiment Analysis 1](https://launchschool.com/lessons/08996120/assignments/46f6d954)
 10	Sentiment Analysis 2
 11	Mail Count
 12	Code Review: Longest Sentence
