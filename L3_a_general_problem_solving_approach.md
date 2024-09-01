@@ -1,4 +1,7 @@
 ## [1	The "PEDAC" Problem Solving Process	](https://launchschool.com/lessons/28467827/assignments/b9dbce8b)
+
+- Why are we going over this now ?
+
 ## [2	PEDAC Video Walkthrough	]()
 ## [3	An Example Problem: Comparing Version Numbers	]()
 ## [4	Understand the Problem and Requirements (1)	]()
