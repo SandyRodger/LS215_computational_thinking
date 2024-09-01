@@ -403,8 +403,20 @@ function isValidEmail(email) {
 
 8	Matching Parentheses
 ## [9	Sentiment Analysis 1](https://launchschool.com/lessons/08996120/assignments/46f6d954)
-10	Sentiment Analysis 2
-11	Mail Count
+
+- Here I learnt that if you use a code block inside the `reduce` function, you must remember to return the value. Blocks do not implicitly return in JS. ALternatively you can forgo the curly braces and do it all in a callback function.
+
+## [10	Sentiment Analysis 2](https://launchschool.com/lessons/08996120/assignments/74d8d8ca)
+
+- That's quite the regex:
+
+```javascript
+let positiveRegex = /\bfortunes?\b|\bdream(s|t|ed)?\b|love(s|d)?\b|respect(s|ed)?\b|\bpatien(ce|t)?\b|\bdevout(ly)?\b|\bnobler?\b|\bresolut(e|ion)?\b/gi;
+```
+
+## [Mail Count](https://launchschool.com/lessons/08996120/assignments/b425bdee)
+
+
 12	Code Review: Longest Sentence
 13	Reference Solution: Longest Sentence
 14	More Exercises
