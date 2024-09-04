@@ -260,10 +260,26 @@ LS questions:
 ## [8	Create Examples / Test Cases](https://launchschool.com/lessons/28467827/assignments/b6f994f4)
 
 - Writing test cases can help us to generalize our requirements. If we are extrapolating from a single example, this can lead us to create requirements tailored to too narrow a case.
+- For this reason it's often good to go back to requirements while writing the test cases.
 
-## [9	Work with Data Structure and Algorithm	]()
-## [10	Translate Algorithm Steps Into Code	]()
-## [11	Run Test Cases To Verify and Debug Code	]()
+## [9	Work with Data Structure and Algorithm](https://launchschool.com/lessons/28467827/assignments/cc7a825b)
+
+### Data structure choice
+
+- How do we represent our data so that we can best utilize the built-in methods of the language.
+
+### Algorithms
+
+- This is a breakdown of the requirements. It's close to the original, but using lamnguage much closer to the language of JS.
+- After writing your algorithm, it's a good iudea to go back over your test cases to verify that your algorithm will work with all of them. This really reduces the risk of writing buggy code. Super important during interviews.
+
+## [10	Translate Algorithm Steps Into Code	](https://launchschool.com/lessons/28467827/assignments/13c13b92)
+
+- With the algorithm so far, and the steps up to now, the code glides out smoothly.
+
+## [11	Run Test Cases To Verify and Debug Code	](https://launchschool.com/lessons/28467827/assignments/94d20e1e)
+
+
 ## [12	Watch Others Code Series	]()
 ## [13	Problem 1	]()
 ## [14	Problem 2	]()
