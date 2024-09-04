@@ -74,9 +74,9 @@ function queenAttack(board) {
 
 ### How do I write good ones
 
-- Input types:
+- **Input types:**
   - Can the function handle different types of inputs (stirngs? Booleans? etc)
-- Special Values:
+- **Special Values:**
   - If the input is a ...
     - Number, does it work with:
       -  0?
@@ -91,8 +91,51 @@ function queenAttack(board) {
     -  Array, does it work with:
       -  sparse arrays?
       -  arrays with object properties?
+-  **Valid/invalid inputs:**
+  -  What should we consider invalid? And what should we do with them ?
+    -  For example if we're told the input is a "word", can it have non-letter chars?
+    -  Should we rteturn a `null` or `undefined` if it's invalid?
+    -  Should we consider letter case?
+    - what if input is omitted?
+      - Have a default parameter?
+      - Raise an exception?
+      - return a specific value?
+- Cover these as completely as possible. generic and edge cases.
+- Remember: conditional requirements need test cases that cover both sides of the condition.
+- Avoid testing more than one requirement per test-case. This will make debugging easier.
+  - In fact you can have more than one test-case for a single requirement. That's good.
 
-## [7	Interview Practice Problems: Asking Questions	]()
+### Test cases:
+
+- A great life-skill. For instance, when a client gives you a vague brief.
+
+### Do I always need to consider every possible edge case?
+
+- Depends on the sitch:
+  - If the function is part of a larger program and we know the input will always be a string, then it's ok to ignore other inputs.
+  - If we're uncertain of the input types, then we need to be quite careful.
+  - Making assumptions about what the input will be, without asking the interviewer questions can be a costly mistake.
+
+### Why is it important to create examples before we work through the algorithm?
+
+1. Creating test cases forces us to understand the problem requirements
+2. It may highlight gaps in our requirements section. It is better to fix these things earlier.
+3. Test cases provide an end to the problem. If they all pass we know we're done. If the test cases are incomplete, the problem may not be solved and by the time you realise it will be too late.
+4. An interviewer may not be abkle to anser a vague question like, 'have i covered all the edge cases', but they can say whether a specific case is to be considered.
+5. It's good in interviews. it allows a chance to communicate with the interviewer.
+
+
+
+## [7	Interview Practice Problems: Asking Questions	](https://launchschool.com/lessons/28467827/assignments/cec18cce)
+
+- Here we practice identifying what questions we should ask the interviewer before starting the problem.
+- Don't forget follow-up questions. An answer to one question can raise more questions.
+- Identify as many unstated requirements as possible.
+
+### problem 1: Distinct strings:
+
+- 
+
 ## [8	Create Examples / Test Cases	]()
 ## [9	Work with Data Structure and Algorithm	]()
 ## [10	Translate Algorithm Steps Into Code	]()
