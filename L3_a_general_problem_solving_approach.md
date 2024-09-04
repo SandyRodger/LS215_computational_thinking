@@ -134,6 +134,16 @@ function queenAttack(board) {
 
 ### Problem 1: Distinct strings:
 
+A distinct string is a string that is present only once in an array.
+
+Given an array of strings, arr, and an integer, k, return the kth distinct string present in arr. If there are fewer than k distinct strings, return an empty string "".
+
+Note that the result string is the one encountered earliest in the array.
+
+```javascript
+distinctString(["d","b","c","b","c","a"], 2); // "a"
+```
+
 - My questions:
   - Will 2 arguments always be provided?
   - Will the strings ever be:
@@ -162,9 +172,95 @@ thirdMax([3, 2, 1]); // 1
 
 My questions:
 
-- 
+- Will the function always be given precisely 1 argument?
+  - if no: How would I handle 0, or more than 1?
+- Will the array:
+  - only contain integers:
+    - If no: what, and what do I do with:
+      - Infinity?
+      - NaN?
+      - String numbers?
+      - floats?
+      - fractions? (Rational Numbers)
+      - etc.
+  - Ever be empty?
+  - Have a limit in size?
+  - Be something other than an array? Like an object?
+  - Be sparse? How would I deal with that?
+  - What would I do with arrays shorter than 3 elements?
 
-## [8	Create Examples / Test Cases	]()
+- Questions I missed:
+  - Negative numbers
+  - `-Infinity`
+  - Does the order of the numbers matter?
+  - Will there be repeated numbers?
+
+### Problem 3: primeNumberPrinter
+
+- Write a function, primeNumberPrinter, that prints all prime numbers present as substrings in a given string.
+
+```javascript
+primeNumberPrinter("a4bc2k13d"); // [2, 13]
+```
+
+My questions:
+
+- Input
+  - Will there always be 1 argument?
+    - What is there's less? More?
+  - Will the argument always be a string?
+    - What do I do if it is anything else?
+  - Will it only contain numbers and alphabetical characters?
+  - Are non-number characters to be ignored?
+  - Are numbers to always be grouped together, or considered as all possible substrings. For instance is "123" only 123 or can it also be "1", "2", "3", "12" and  "23"
+    - If the second is true, can the numbers change their order to form more numbers?
+- Output
+  - Always an array?
+    - what if it's empty?
+    - Is there a limit in length?
+    - contain only strings?
+    - How is this to be printed?
+      - To the console?
+      - Some other output?
+
+LS questions I missed:
+
+- What if the string contains only non-digits.
+- Will the string be any length?
+- In what order should the output be listed?
+- Can the output contain negative numbers. How am I to deal with `-` (and I suppose `.` as well?)
+
+### Problem 4:
+
+​ Write a function that takes a two-dimensional array as the argument and turns it into a flat array with all duplicated elements removed. Treat numbers and number strings (e.g., 1 and '1') as duplicates, and keep the one that comes first in the result.
+
+```javascript
+flattenAndUnique([]); // []
+flattenAndUnique([[1, 2, 3], ['3', 4, 5, 'a']]); // [1, 2, 3, 4, 5, 'a']
+```
+
+My questions:
+
+- Will there always be only one argument? What to do with more or none?
+- Will the input always be an array? If not, how do I handle it?
+- Will it always contain subarrays? If not, how do I handle it?
+- Will the subarrays ever be empty?
+- Will they contain elements other than strings and integers?
+- Is the case of the strings to be considered?
+- Should I mutate the input?
+- Should the orignal order be maintained? If not, how...
+- Will strings ever contain both numbers and other charcters? If so, how would I treat these?
+- Will the array or subarrays ever be sparse?
+
+LS questions:
+
+- can subarrays contain `NaN`, and if so do I remove duplicates?
+- Will siubarrays ever contain objects. Can they be duplicate?
+
+## [8	Create Examples / Test Cases](https://launchschool.com/lessons/28467827/assignments/b6f994f4)
+
+-
+
 ## [9	Work with Data Structure and Algorithm	]()
 ## [10	Translate Algorithm Steps Into Code	]()
 ## [11	Run Test Cases To Verify and Debug Code	]()
