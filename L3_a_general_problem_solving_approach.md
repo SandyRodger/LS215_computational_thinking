@@ -259,7 +259,7 @@ LS questions:
 
 ## [8	Create Examples / Test Cases](https://launchschool.com/lessons/28467827/assignments/b6f994f4)
 
--
+- Writing test cases can help us to generalize our requirements. If we are extrapolating from a single example, this can lead us to create requirements tailored to too narrow a case.
 
 ## [9	Work with Data Structure and Algorithm	]()
 ## [10	Translate Algorithm Steps Into Code	]()
