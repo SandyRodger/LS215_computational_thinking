@@ -132,7 +132,35 @@ function queenAttack(board) {
 - Don't forget follow-up questions. An answer to one question can raise more questions.
 - Identify as many unstated requirements as possible.
 
-### problem 1: Distinct strings:
+### Problem 1: Distinct strings:
+
+- My questions:
+  - Will 2 arguments always be provided?
+  - Will the strings ever be:
+    - longer than 1 character?
+    - empty?
+    - Will the strings only be alphabetical characters?
+    - Will the array ever be empty?
+  - Will the integer ever be negative, and if so is that meant to denote spaces from the end?
+- Questions I missed:
+  - What should I do if an argument is omitted?
+  - What should I do if more than 2 arguments are given?
+  - Will the first argument always be an array? If not, what do I do?
+  - Will the second argument always be an integer? If not, what do I do?
+  - Can an array be sparse? How would I treat the missing elements?
+  - Can an array contain any number of elements?
+
+### Problem 2: third largest num
+
+- Given an array of integers, nums, return the third largest number in the array. If the third largest number does not exist, return the greatest number.
+
+- You are not allowed to sort the array.
+
+```
+thirdMax([3, 2, 1]); // 1
+```
+
+My questions:
 
 - 
 
