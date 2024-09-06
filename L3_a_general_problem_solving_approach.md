@@ -5,6 +5,14 @@
 
 ## [2	PEDAC Video Walkthrough	](https://launchschool.com/lessons/28467827/assignments/c461b845)
 
+### Data:
+
+- The problems are larger, so we'll have more complex data-structures
+- Choosing the wrong data-structure can lead to a dead-end.
+- It's all about thinking which methods fit your problem. Also, what type of objects will you use.
+  - Compound data-structures are also to be considered.
+- We don't want to be switching mid-algorithm.
+
 - LS solution:
 
 ```javascript
@@ -303,7 +311,7 @@ LS questions:
 
 ## [18	Practice Problem: Swap	](https://launchschool.com/lessons/28467827/assignments/abd935ee)
 
-- OK
+- I've gotten stuck in my coding. SO maybe I'll go back and wathc those videos...
 
 ## [19	More Exercises	]()
 ## [20	LS215 Lesson 3 Quiz 1	]()
