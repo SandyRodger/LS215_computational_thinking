@@ -279,16 +279,34 @@ LS questions:
 
 ## [11	Run Test Cases To Verify and Debug Code	](https://launchschool.com/lessons/28467827/assignments/94d20e1e)
 
+## [12	Watch Others Code Series	](https://launchschool.com/lessons/28467827/assignments/e8a0b18e)
+## [13	Problem 1	](https://launchschool.com/lessons/28467827/assignments/5e4c3863)
 
-## [12	Watch Others Code Series	]()
-## [13	Problem 1	]()
-## [14	Problem 2	]()
-## [15	Problem 3	]()
-## [16	Problem 4	]()
-## [17	Problem 5	]()
-## [18	Practice Problem: Swap	]()
+- Too much sniffing - fuck this.
+
+## [14	Problem 2	](https://launchschool.com/lessons/28467827/assignments/8483efc4)
+
+- Skipped 5 mins in. 
+
+## [15	Problem 3	](https://launchschool.com/lessons/28467827/assignments/3e9003a4)
+
+- Skiiiiiiiip
+
+## [16	Problem 4	](https://launchschool.com/lessons/28467827/assignments/a4861db0)
+
+
+## [17	Problem 5	](https://launchschool.com/lessons/28467827/assignments/d375ac5f)
+
+- FML, 103 minutes?!
+- Interesting that it is harder than the interviews.
+- "rail fence cipher" - cool name.
+
+## [18	Practice Problem: Swap	](https://launchschool.com/lessons/28467827/assignments/abd935ee)
+
+- OK
+
 ## [19	More Exercises	]()
 ## [20	LS215 Lesson 3 Quiz 1	]()
 ## [21	Course LS215 Feedback]()
 ## []()
-![image](https://github.com/user-attachments/assets/2c4772a4-c49d-48f1-bc27-f46f03d566b6)
+
