@@ -302,6 +302,13 @@ LS questions:
 
 ## [16	Problem 4	](https://launchschool.com/lessons/28467827/assignments/a4861db0)
 
+- OK, after having failed the practice problem, I'm eating humble pie and watching a damn video.
+- Rememeber to write requirements BEFORE writing your test cases
+- You shouldn't need to go back and re-read the problem, because your own rewriting of the requirements should be a comprehensive break-down of the problem.
+- "If you feel it's hard to express the requirements then you'll struggle even more with the algorithm, and more with the code. So this is the moment to go back and re-consider the data-structures you've chosen and the mental mdoel you're working with.
+- Don't slip into the algorithm (so, no mentioning of methods/functions)
+- It is very helpful to speak one's process aloud.
+- PART OF CREATING YOUR MENTAL MODEL IS ESTABLISHING THE RIGHT VOCABULARY.
 
 ## [17	Problem 5	](https://launchschool.com/lessons/28467827/assignments/d375ac5f)
 
@@ -312,6 +319,73 @@ LS questions:
 ## [18	Practice Problem: Swap	](https://launchschool.com/lessons/28467827/assignments/abd935ee)
 
 - I've gotten stuck in my coding. SO maybe I'll go back and wathc those videos...
+
+- Later:
+  - My code is way to buggy, and the LS solution much simpler and shorter.
+  - I need lots more practice
+ 
+- My solution:
+
+```javascript
+function swap(string) {
+  if (!string.length) return string;
+  
+  let inputAsArray = string.split('');
+  let lettersRegex = /[a-z]/i;
+  let numbersRegex = /[0-9]/;
+  let index = 0;
+  let numbers = inputAsArray.filter((char) => numbersRegex.test(char));
+  let letters = inputAsArray.filter((char) => lettersRegex.test(char));
+  let alreadySwapped = {};
+
+  let output = inputAsArray.map((char) => {
+    if (alreadySwapped[index]) {
+      index += 1
+      return alreadySwapped[index-1];
+    }
+    else if(lettersRegex.test(char) && numbers[0] && !alreadySwapped[index]) {
+      index += 1;
+      alreadySwapped[string.indexOf(numbers[0])] = char;
+      return numbers.shift();
+    } else if (numbersRegex.test(char) && letters[0] && !alreadySwapped[index]) {
+      index += 1;
+      alreadySwapped[string.indexOf(letters[0])] = char;
+      return letters.shift();
+    } else {
+      index += 1;
+      return char;
+    }
+  })
+
+  return output.join('')
+}
+```
+
+- LS solution:
+
+```javascript
+const isLetter = char => /[a-z]/i.test(char);
+const isDigit = char => /\d/i.test(char);
+
+function swap(str) {
+  if (str.length === 0) return str;
+
+  const chars = str.split("");
+  const letters = chars.filter(isLetter);
+  const nums = chars.filter(isDigit);
+
+  if (letters.length === 0 || nums.length === 0) return str;
+
+  const swapped = chars.map(char => {
+    if (isLetter(char) && nums.length > 0) return nums.shift();
+    else if (isDigit(char) && letters.length > 0) return letters.shift();
+
+    return char;
+  });
+
+  return swapped.join("");
+}
+```
 
 ## [19	More Exercises	]()
 ## [20	LS215 Lesson 3 Quiz 1	]()
