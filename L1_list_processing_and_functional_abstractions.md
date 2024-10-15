@@ -1,34 +1,94 @@
 
 ## Capstone Introduction
 ## [Introduction to the Course](https://launchschool.com/lessons/bfc761bc/assignments/9a962c82)
+
+- Here we separate the 2 major parts of coding:
+  - Understanding the problem and building a mental model of it.
+  - Write the model out in code.
+- In LS_215 we're concentrating on the first part.
+- This course covers:
+  - Thinking logically: analyzing the problem and solutions paths.
+    - Centre and edge cases.
+  - Thinking procedurally and the bottom up imperative solution expressions.
+  - Thinking top-down, declarative solution expressions.
+
 ## [Passing Functions as Arguments](https://launchschool.com/lessons/bfc761bc/assignments/96acf6be)
+
+- Functions are:
+  - first-class objects
+  - lists of statements that can have parameters whose values dictate some aspect of their behaviour.
 
 ### Abstractions allow Code to specialize
 
+- ORGANIZE CODE BY PURPOSE AND RESPONSIBILITY
+
 ### Passing Functions as Arguments
 
+- An example where the callback function is saved in a variable, the array in another variable and the main function in another variable. So when they are combined in the calling of the function each part can be provided without depending on the other parts.
+
 ### Behaviour as Arguments to Allow abstractions
+
+- If you are only able to pass objects to methods then your function can only do a specific task. But if you can pass functions then your function becomes an abstraction. You can say "iterate through an array and do something"
 
 ## Declarative Programming with Abstractions
 
 ### Imperative Style
 
--  Focusing on the steps of solving the problem.
+-  Focusing on the steps of solving the problem without saving any of the funtionality in variables to abstract it away.
 
 ### Imperative Style with function abstractions.
 
+- Using descriptive variable names to store some of the functionality, so the developer doen't have to figure out whaat the code is doing. Rather he just reads something like "isOdd" and understands that this piece of code will return a boolean based on whether the input is odd or not.
+
 ### Iteration Focused Abstraction
+
+- Like the last one, but using JS' built in iterators so we don't have to think about it.
 
 ### Filter Abstraction that truly reflects the purpose
 
+- Using filter in a way that mirrors the reality of the problem:
+
+```javascript
+let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let oddNumbers = array.filter(isOddNumber);
+
+console.log(oddNumbers);
+
+function isOddNumber(number) {
+  return number % 2 === 1;
+}
+```
+
+- Remember to use filter when you're using a function expression to call another function.
+- This is an expression of the problem that is close to how a human would describe and think about the problem. Our resulting code is:
+  - More readable (because it is better fitting the mental model)
+  - More concise
+  - More robust (because we use the built-in abstraction `filter` rather than building our own.
+
 ### Declarative programming
 
-## List Processing Abstractions
+- The higher the level of abstraction, the more declarative it will be.
+- Declarative programming frees devs to think on a human level. By contrast, imperative programing means you have to imagine yourself as a computer.
+- Built your own abstractions to "push-down" implementation details.
 
+## [List Processing Abstractions](https://launchschool.com/lessons/bfc761bc/assignments/d2af4ac0)
+
+- Iteration:
+  - `forEach()`
+- Filter/selection:
+  - `filter()`
+- Transformation:
+  - `map()`
+- Ordering:
+  - `sort()`
+- Reducing:
+  - `reduce()` , `reduceRight()`
+- Interrogation:
+  - `every()` , `some()`
 
 ## [Iteration](https://launchschool.com/lessons/bfc761bc/assignments/477b4eea)
 
-- In JS the preferred way to iterate over an element in an array is `forEach`
+- In JS the preferred way to iterate over an element in an array is `forEach`. (Isn't that for loops?)
 
 ### Return Value:
 
@@ -69,7 +129,8 @@ console.log(min, max);
 ## [Filtering / Selection](https://launchschool.com/lessons/bfc761bc/assignments/c6f3935e)
 
 - with `filter`.
-- 
+- If the return value of the callback is truthy it will be included in the new array otherwise not.
+- `Math.pow()`
 
 ## [Transformation](https://launchschool.com/lessons/bfc761bc/assignments/68c901d9)
 
