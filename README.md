@@ -3,9 +3,9 @@
 ## [L1: List Processing and Functional Abstractions](https://launchschool.com/lessons/bfc761bc/assignments)
 
 
-### [1. Capstone Introduction](https://launchschool.com/lessons/bfc761bc/assignments/db0064bc)
-### [2. Introduction to the Course](https://launchschool.com/lessons/bfc761bc/assignments/9a962c82)
-### [3. Passing Functions as Arguments](https://launchschool.com/lessons/bfc761bc/assignments/96acf6be)
+### [1. Capstone Introduction](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#capstone-introduction)
+### [2. Introduction to the Course](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#introduction-to-the-course)
+### [3. Passing Functions as Arguments](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#passing-functions-as-arguments)
 
 #### Abstractions allow Code to specialize
 
@@ -13,7 +13,7 @@
 
 #### Behaviour as Arguments to Allow abstractions
 
-### [4. Declarative Programming with Abstractions](https://launchschool.com/lessons/bfc761bc/assignments/d07e9b27)
+### [4. Declarative Programming with Abstractions](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#declarative-programming-with-abstractions)
 
 #### Imperative Style
 
@@ -25,45 +25,45 @@
 
 #### Declarative programming
 
-### [5. List Processing Abstractions](https://launchschool.com/lessons/bfc761bc/assignments/d2af4ac0)
+### [5. List Processing Abstractions](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#:~:text=Declarative%20programming-,List%20Processing%20Abstractions,-Iteration)
 
 
-### [6. Iteration](https://launchschool.com/lessons/bfc761bc/assignments/477b4eea)
+### [6. Iteration](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#:~:text=List%20Processing%20Abstractions-,Iteration,-Return%20Value%3A)
 
 #### Return Value:
 
 #### Build it to understand it
 
-### [7. Filtering / Selection](https://launchschool.com/lessons/bfc761bc/assignments/c6f3935e)
+### [7. Filtering / Selection](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#filtering--selection)
 
-### [8. Transformation](https://launchschool.com/lessons/bfc761bc/assignments/68c901d9)
+### [8. Transformation](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#transformation)
 
 
-### [9. Reducing](https://launchschool.com/lessons/bfc761bc/assignments/32501eac)
+### [9. Reducing]([https://launchschool.com/lessons/bfc761bc/assignments/32501eac](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#reducing))
 
-### [10. Interrogation](https://launchschool.com/lessons/bfc761bc/assignments/c81a7804)
+### [10. Interrogation](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#interrogation )
 
-### [11. Sort](https://launchschool.com/lessons/bfc761bc/assignments/936f8325)
-### [12. Combining Abstractions](https://launchschool.com/lessons/bfc761bc/assignments/6e5fb053)
+### [11. Sort](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#sort)
+### [12. Combining Abstractions](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#combining-abstractions)
 
-### [13. Functional Abstractions on Objects](https://launchschool.com/lessons/bfc761bc/assignments/37649326)
+### [13. Functional Abstractions on Objects](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#functional-abstractions-on-objects)
 
-### [14. Practice Problem: Total Square Area](https://launchschool.com/lessons/bfc761bc/assignments/54616106)
+### [14. Practice Problem: Total Square Area](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#practice-problem-total-square-area)
 
-### [15. Practice Problem: Processing Releases](https://launchschool.com/lessons/bfc761bc/assignments/801985a4)
+### [15. Practice Problem: Processing Releases](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#practice-problem-processing-releases)
 
-### [16. Practice Problem: Octal](https://launchschool.com/lessons/bfc761bc/assignments/b1e4e00d)
+### [16. Practice Problem: Octal](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#practice-problem-octal)
 
-### [17. Practice Problem: Anagrams](https://launchschool.com/lessons/bfc761bc/assignments/b3d2a692)
+### [17. Practice Problem: Anagrams](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#practice-problem-anagrams)
 
-### [18. Practice Problem: Formatting Bands](https://launchschool.com/lessons/bfc761bc/assignments/7b314293)
+### [18. Practice Problem: Formatting Bands](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#practice-problem-formatting-bands)
 
-### [19. Practice Problem: Class Records Summary](https://launchschool.com/lessons/bfc761bc/assignments/ff1533e4)
+### [19. Practice Problem: Class Records Summary](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#practice-problem-class-records-summary)
 
-### [20. Don't Be Afraid to Use Low Level Abstraction](https://launchschool.com/lessons/bfc761bc/assignments/4f67c44f)
+### [20. Don't Be Afraid to Use Low Level Abstraction](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#dont-be-afraid-to-use-low-level-abstraction)
 
-### [21. More Exercises](https://launchschool.com/lessons/bfc761bc/assignments/0772a1d7)
-### [22. LS215 Lesson 1 Quiz 1](https://launchschool.com/lessons/bfc761bc/assignments/82333670)
+### [21. More Exercises](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#more-exercises)
+### [22. LS215 Lesson 1 Quiz 1](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#ls215-lesson-1-quiz-1)
 
 ## [L2: String and Text Processing](https://launchschool.com/lessons/08996120/assignments)
 
