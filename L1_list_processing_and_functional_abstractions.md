@@ -371,11 +371,7 @@ console.log(processBands(bands));
 
 ## [Practice Problem: Class Records Summary](https://launchschool.com/lessons/bfc761bc/assignments/ff1533e4)
 
-
-
 ## [Don't Be Afraid to Use Low Level Abstraction](https://launchschool.com/lessons/bfc761bc/assignments/4f67c44f)
-
-
 
 ## More Exercises
 ## LS215 Lesson 1 Quiz 1
