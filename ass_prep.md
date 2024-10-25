@@ -11,9 +11,13 @@ E: Analyse Examples
 D: Objects/Arrays? 
 
 A: - blocks (arrays are shelves, Objects are coat hooks)
+
 A: - Forklifts
+
 A: - with coding terms
+
 C:
+
 T: test cases
 
 ### Checklist
@@ -81,3 +85,7 @@ T: test cases
 - Think, speak, and code deliberately
 - Accuracy in concepts and terminologies
 - Stay calm
+
+### Things to include in the assessment:
+
+    - save callbacks in different variables, so that the function can adapt to different use cases. Pass functions as arguments.e
