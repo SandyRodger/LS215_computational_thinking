@@ -2,99 +2,59 @@
 
 ## [L1: List Processing and Functional Abstractions](https://launchschool.com/lessons/bfc761bc/assignments)
 
-
 ### [1. Capstone Introduction](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#capstone-introduction)
 ### [2. Introduction to the Course](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#introduction-to-the-course)
 ### [3. Passing Functions as Arguments](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#passing-functions-as-arguments)
-
-#### Abstractions allow Code to specialize
-
-#### Passing Functions as Arguments
-
-#### Behaviour as Arguments to Allow abstractions
-
+  #### Abstractions allow Code to specialize
+  #### Passing Functions as Arguments
+  #### Behaviour as Arguments to Allow abstractions
 ### [4. Declarative Programming with Abstractions](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#declarative-programming-with-abstractions)
-
-#### Imperative Style
-
-#### Imperative Style with function abstractions.
-
-#### Iteration Focused Abstraction
-
-#### Filter Abstraction that truly reflects the purpose
-
-#### Declarative programming
-
+  #### Imperative Style
+  #### Imperative Style with function abstractions.
+  #### Iteration Focused Abstraction
+  #### Filter Abstraction that truly reflects the purpose
+  #### Declarative programming
 ### [5. List Processing Abstractions](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#:~:text=Declarative%20programming-,List%20Processing%20Abstractions,-Iteration)
-
-
 ### [6. Iteration](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#:~:text=List%20Processing%20Abstractions-,Iteration,-Return%20Value%3A)
-
-#### Return Value:
-
-#### Build it to understand it
-
+  #### Return Value:  
+  #### Build it to understand it
 ### [7. Filtering / Selection](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#filtering--selection)
-
 ### [8. Transformation](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#transformation)
-
-
 ### [9. Reducing](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#reducing)
-
 ### [10. Interrogation](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#interrogation )
-
 ### [11. Sort](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#sort)
 ### [12. Combining Abstractions](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#combining-abstractions)
-
 ### [13. Functional Abstractions on Objects](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#functional-abstractions-on-objects)
-
 ### [14. Practice Problem: Total Square Area](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#practice-problem-total-square-area)
-
 ### [15. Practice Problem: Processing Releases](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#practice-problem-processing-releases)
-
 ### [16. Practice Problem: Octal](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#practice-problem-octal)
-
 ### [17. Practice Problem: Anagrams](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#practice-problem-anagrams)
-
 ### [18. Practice Problem: Formatting Bands](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#practice-problem-formatting-bands)
-
 ### [19. Practice Problem: Class Records Summary](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#practice-problem-class-records-summary)
-
 ### [20. Don't Be Afraid to Use Low Level Abstraction](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#dont-be-afraid-to-use-low-level-abstraction)
-
 ### [21. More Exercises](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#more-exercises)
-### [22. LS215 Lesson 1 Quiz 1](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#ls215-lesson-1-quiz-1)
+### [22. LS215 Lesson 1 Quiz 1](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#ls215-lesson-1-quiz-1)]
 
 ## [L2: String and Text Processing](https://launchschool.com/lessons/08996120/assignments)
 
-###  [1. String Processing Patterns](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#1-string-processing-patterns)
-
+### [1. String Processing Patterns](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#1-string-processing-patterns)
 ### [2.	String Methods](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#2string-methods)
-
 ### [3.	Practice Problems: Strings](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#3practice-problems-strings)
 ### [4.	Regular Expressions](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#4regular-expressions)
-
 ### [5.	Reverse a String](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#5reverse-a-string)
-
 ### [6. Acronym](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#6-acronym)
-
 ### [7. Email Validation](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#7-email-validation)
-
 ### [8.	Matching Parentheses](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#8matching-parentheses)
 ### [9.	Sentiment Analysis 1](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#9sentiment-analysis-1)
-
 ### [10.	Sentiment Analysis 2](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#10sentiment-analysis-2)
-
 ### [11. Mail Count](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#11-mail-count)
-
 ### [12. Code Review: Longest Sentence](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#12-code-review-longest-sentence)
-
 ### [13	Reference Solution: Longest Sentence](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#13reference-solution-longest-sentence)
 ### [14	More Exercises](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#14more-exercises)
-
 ### [15	LS215 Lesson 2 Quiz 1](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#15ls215-lesson-2-quiz-1)
 
 ## [L3: a general problem solving method](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md)
+
 ### [1	The "PEDAC" Problem Solving Process](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#1the-pedac-problem-solving-process)
 ### [2	PEDAC Video Walkthrough](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#2pedac-video-walkthrough)
 ### [3	An Example Problem: Comparing Version Numbers](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#3an-example-problem-comparing-version-numbers)
@@ -116,7 +76,6 @@
 ### [19	More Exercises](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#19more-exercises)
 ### [20	LS215 Lesson 3 Quiz 1](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#20ls215-lesson-3-quiz-1)
 ### [21	Course LS215 Feedback](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#21course-ls215-feedback)
-
 
 |  | 1st: John the Baptist | 2nd: deep-dive | 3rd: find/fill gaps |
 | :--- | :---: | :---: | :---: | 
