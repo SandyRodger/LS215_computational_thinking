@@ -67,34 +67,32 @@
 
 ## [L2: String and Text Processing](https://launchschool.com/lessons/08996120/assignments)
 
-###  [1. String Processing Patterns](https://launchschool.com/lessons/08996120/assignments/da21fd18)
+###  [1. String Processing Patterns](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#1-string-processing-patterns)
 
-### [2.	String Methods](https://launchschool.com/lessons/08996120/assignments/deb5d37b)
+### [2.	String Methods](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#2string-methods)
 
-### [3.	Practice Problems: Strings](https://launchschool.com/lessons/08996120/assignments/b674f41e)
-### [4.	Regular Expressions](https://launchschool.com/lessons/08996120/assignments/0a36d422)
+### [3.	Practice Problems: Strings](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#3practice-problems-strings)
+### [4.	Regular Expressions](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#4regular-expressions)
 
-### [5.	Reverse a String](https://launchschool.com/lessons/08996120/assignments/27270b8d)
+### [5.	Reverse a String](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#5reverse-a-string)
 
-### [6. Acronym](https://launchschool.com/lessons/08996120/assignments/e06e683a)
+### [6. Acronym](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#6-acronym)
 
-### [7. Email Validation](https://launchschool.com/lessons/08996120/assignments/7bb83747)
+### [7. Email Validation](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#7-email-validation)
 
+### [8.	Matching Parentheses](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#8matching-parentheses)
+### [9.	Sentiment Analysis 1](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#9sentiment-analysis-1)
 
+### [10.	Sentiment Analysis 2](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#10sentiment-analysis-2)
 
-### [8.	Matching Parentheses](https://launchschool.com/lessons/08996120/assignments/bb6d711f)
-### [9.	Sentiment Analysis 1](https://launchschool.com/lessons/08996120/assignments/46f6d954)
+### [11. Mail Count](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#11-mail-count)
 
-### [10.	Sentiment Analysis 2](https://launchschool.com/lessons/08996120/assignments/74d8d8ca)
+### [12. Code Review: Longest Sentence](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#12-code-review-longest-sentence)
 
-### [11. Mail Count](https://launchschool.com/lessons/08996120/assignments/b425bdee)
+### [13	Reference Solution: Longest Sentence](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#13reference-solution-longest-sentence)
+### [14	More Exercises](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#14more-exercises)
 
-### [12. Code Review: Longest Sentence](https://launchschool.com/lessons/08996120/assignments/ef3b41db)
-
-### [13	Reference Solution: Longest Sentence](https://launchschool.com/lessons/08996120/assignments/ef3b41db)
-### [14	More Exercises](https://launchschool.com/lessons/08996120/assignments/2986a10c)
-
-### [15	LS215 Lesson 2 Quiz 1](https://launchschool.com/lessons/08996120/assignments/dcc8e445)
+### [15	LS215 Lesson 2 Quiz 1](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L2_string_and_text_processing.md#15ls215-lesson-2-quiz-1)
 
 ## [L3: a general problem solving method](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md)
 ### [1	The "PEDAC" Problem Solving Process](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#1the-pedac-problem-solving-process)
