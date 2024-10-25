@@ -373,7 +373,5 @@ console.log(processBands(bands));
 
 ## [Don't Be Afraid to Use Low Level Abstraction](https://launchschool.com/lessons/bfc761bc/assignments/4f67c44f)
 
-## More Exercises
-## LS215 Lesson 1 Quiz 1
-![image](https://github.com/user-attachments/assets/30163f94-c812-4ac6-ac38-72704628ec74)
-![image](https://github.com/user-attachments/assets/8a626f87-f12f-4bb8-a7b3-fb209e10de42)
+## [More Exercises](https://launchschool.com/lessons/bfc761bc/assignments/0772a1d7)
+## [LS215 Lesson 1 Quiz 1](https://launchschool.com/lessons/bfc761bc/assignments/82333670)
