@@ -65,210 +65,60 @@
 ### [21. More Exercises](https://launchschool.com/lessons/bfc761bc/assignments/0772a1d7)
 ### [22. LS215 Lesson 1 Quiz 1](https://launchschool.com/lessons/bfc761bc/assignments/82333670)
 
-## [String and Text Processing](https://launchschool.com/lessons/08996120/assignments)
+## [L2: String and Text Processing](https://launchschool.com/lessons/08996120/assignments)
 
-1	[String Processing Patterns](https://launchschool.com/lessons/08996120/assignments/da21fd18)
+###  [1. String Processing Patterns](https://launchschool.com/lessons/08996120/assignments/da21fd18)
 
-- failed to save these notes.
+### [2.	String Methods](https://launchschool.com/lessons/08996120/assignments/deb5d37b)
 
-2	String Methods
+### [3.	Practice Problems: Strings](https://launchschool.com/lessons/08996120/assignments/b674f41e)
+### [4.	Regular Expressions](https://launchschool.com/lessons/08996120/assignments/0a36d422)
 
-- failed to save these notes.
+### [5.	Reverse a String](https://launchschool.com/lessons/08996120/assignments/27270b8d)
 
-3	Practice Problems: Strings
-4	Regular Expressions
+#### [6. Acronym](https://launchschool.com/lessons/08996120/assignments/e06e683a)
 
-5	Reverse a String
-
-### [Acronym](https://launchschool.com/lessons/08996120/assignments/e06e683a)
-
-### [Email Validation](https://launchschool.com/lessons/08996120/assignments/7bb83747)
-
-- This problem took me 2 hours, largely because I didn't take time to understand the problem before starting to code. When will I learn? And the LS solution is depressingly concise.
-
-- My code: 
-
-```javascript
-function invalidLocalAddress(local) {
-  return (local.split('').filter((char) => /[a-z0-9]/i.test(char)).length !== local.length);
-}
-
-function invalidDomainAddress(domain) {
-
-  let domainArray = domain.split('.')
-  if (domainArray.length < 2) {return false}
-  
-  const multipleDots = new RegExp('/\.\./', 'i');
-  if (multipleDots.test(domain)) {return false}
-
-  const onlyLetters = new RegExp('[a-z]', 'i');
-  const nonLetters = new RegExp('[^a-z]', 'i');
-
-  return domainArray.every((component) => 
-    (onlyLetters.test(component)) &&
-    (!nonLetters.test(component))
-  )
-}
-
-function isValidEmail(email) {
-
-  let local = email.split('@')[0];
-  let domain = email.split('@')[1];
-  
-  if (
-    !email.split('').includes('@') ||
-    invalidLocalAddress(local) ||
-    invalidDomainAddress(domain)
-    ) {return false};
-
-  return true
-}
-```
-
-- LS code:
-
-```javascript
-function isValidEmail(email) {
-  return /^[a-z0-9]+@([a-z]+\.)+[a-z]+$/i.test(email);
-}
-```
-
-- This regex means:
-  - `^` This is the start of the line, from which point we start comparing. Not anywhere in the string.
-  - `[a-z0-9]` : This is the local address and it has to contain only letters and numbers (the `i` tag at the end makes these case insensitive.
-  - `+` this tells the regex that all this must be followed by the next bit. Just like string concatenation.
-  - `@` is just that.
-  - I'm not sure I can explain why we need the `+` in front of the `@`, but not after it.
-  - `([a-z])+\.)` This says match any number of letters followed by a dot (which as a special character needs to be escaped by the forward slash). The round parentheses mean you can have this as many times as you want, as long as there is a single dot at the end.
-  - This must be followed by more letters, so `[a-z]`. As long as this is done once, we can ignore the rest.
-  - And the the end of the line `$`.
-  
-
-8	Matching Parentheses
-### [9	Sentiment Analysis 1](https://launchschool.com/lessons/08996120/assignments/46f6d954)
-
-- Here I learnt that if you use a code block inside the `reduce` function, you must remember to return the value. Blocks do not implicitly return in JS. ALternatively you can forgo the curly braces and do it all in a callback function.
-
-### [10	Sentiment Analysis 2](https://launchschool.com/lessons/08996120/assignments/74d8d8ca)
-
-- That's quite the regex:
-
-```javascript
-let positiveRegex = /\bfortunes?\b|\bdream(s|t|ed)?\b|love(s|d)?\b|respect(s|ed)?\b|\bpatien(ce|t)?\b|\bdevout(ly)?\b|\bnobler?\b|\bresolut(e|ion)?\b/gi;
-```
-
-### [Mail Count](https://launchschool.com/lessons/08996120/assignments/b425bdee)
-
-- This was a good refresher on how to run code in the browser, I should do this more.
-- In this problem I learnt how to create an 'options' object, to determine how to format a date object:
-
-```javascript
-     function formatDate(date) {
-        let options = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' };
-        return date.toLocaleDateString('en-US', options)
-      };
-```
-
-- Also `date.valueOf` returns a number of milliseconds, which can be used for sorting chronologically.
-- My solution:
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>email-parsing-exercise</title>
-  </head>
-  <body>
-    <script src="https://dbdwvr6p7sskw.cloudfront.net/210/files/email_data_v2.js"></script>
-    <script>
-      function formatDate(date) {
-        let options = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' };
-        return date.toLocaleDateString('en-US', options)
-      };
-      function mailCount(emailData) {
-        emailArray = emailData.split('##||##')
-        datesArray = emailArray.map(email => new Date(email.split(`#/#`)[2])).sort((date1, date2) => date1 - date2)
-
-        console.log(`Count of email ${emailArray.length}.`)
-        console.log(`Date Range: ${formatDate(datesArray[0])} - ${formatDate(datesArray[datesArray.length - 1])}`);
-      }
-      mailCount(emailData);
-
-// console output
-
-// Count of Email: 5
-// Date Range: Sat Jun 25 2016 - Thu Aug 11 2016
-    </script>
-  </body>
-</html>
-```
-
-- LS solution:
-
-```javascript
-  function mailCount(emailData) {
-  let emails = emailData.split('##||##');
-  let count = emails.length;
-  let emailDates = emails.map(email => email.split('#/#')[2]);
-
-  console.log('Count of Email: ' + count);
-  console.log('Date Range: ' + displayableDateRange(emailDates));
-}
-
-function displayableDateRange(dates) {
-  let dateObjects = getDateObjects(dates);
-  dateObjects.sort((a, b) => a.valueOf() - b.valueOf());
-  return dateObjects[0].toDateString() + ' - ' + dateObjects[dateObjects.length - 1].toDateString();
-}
-
-function getDateObjects(dates) {
-  return dates.map(date => {
-    let dateElements = date.split(' ')[1].split('-');
-    let month = parseInt(dateElements[0], 10) - 1;
-    let day = parseInt(dateElements[1], 10);
-    let year = parseInt(dateElements[2], 10);
-    return new Date(year, month, day);
-  });
-}
-```
-
-12	[Code Review: Longest Sentence](https://launchschool.com/lessons/08996120/assignments/ef3b41db)
+#### [7. Email Validation](https://launchschool.com/lessons/08996120/assignments/7bb83747)
 
 
-- I will go over this again when I have a fresh brain.
 
-13	Reference Solution: Longest Sentence
-14	More Exercises
+### [8.	Matching Parentheses](https://launchschool.com/lessons/08996120/assignments/bb6d711f)
+### [9.	Sentiment Analysis 1](https://launchschool.com/lessons/08996120/assignments/46f6d954)
 
-- done
+### [10.	Sentiment Analysis 2](https://launchschool.com/lessons/08996120/assignments/74d8d8ca)
 
-15	LS215 Lesson 2 Quiz 1
+### [11. Mail Count](https://launchschool.com/lessons/08996120/assignments/b425bdee)
 
-4/6 - I heavily relied on MDN and ChatGPT, so I need to go over this a few times until these distinctions are clear in my mind. 
+### [12. Code Review: Longest Sentence](https://launchschool.com/lessons/08996120/assignments/ef3b41db)
 
+### [13	Reference Solution: Longest Sentence](https://launchschool.com/lessons/08996120/assignments/ef3b41db)
+### [14	More Exercises](https://launchschool.com/lessons/08996120/assignments/2986a10c)
 
-Topic	Status
-1	The "PEDAC" Problem Solving Process	Not completed
-2	PEDAC Video Walkthrough	Not completed
-3	An Example Problem: Comparing Version Numbers	Not completed
-4	Understand the Problem and Requirements (1)	Not completed
-5	Understand the Problem and Requirements (2)	Not completed
-6	FAQ on the First Two Steps of the PEDAC Process	Not completed
-7	Interview Practice Problems: Asking Questions	Not completed
-8	Create Examples / Test Cases	Not completed
-9	Work with Data Structure and Algorithm	Not completed
-10	Translate Algorithm Steps Into Code	Not completed
-11	Run Test Cases To Verify and Debug Code	Not completed
-12	Watch Others Code Series	Not completed
-13	Problem 1	Not completed
-14	Problem 2	Not completed
-15	Problem 3	Not completed
-16	Problem 4	Not completed
-17	Problem 5	Not completed
-18	Practice Problem: Swap	Not completed
-19	More Exercises	Not completed
-20	LS215 Lesson 3 Quiz 1	Not completed
-21	Course LS215 Feedback
+### [15	LS215 Lesson 2 Quiz 1](https://launchschool.com/lessons/08996120/assignments/dcc8e445)
+
+## [L3: a general problem solving method](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md)
+### [1	The "PEDAC" Problem Solving Process](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#1the-pedac-problem-solving-process)
+### [2	PEDAC Video Walkthrough](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#2pedac-video-walkthrough)
+### [3	An Example Problem: Comparing Version Numbers](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#3an-example-problem-comparing-version-numbers)
+### [4	Understand the Problem and Requirements (1)(https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#4understand-the-problem-and-requirements-1)
+### [5	Understand the Problem and Requirements (2)](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#5understand-the-problem-and-requirements-2)
+### [6	FAQ on the First Two Steps of the PEDAC Process](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#6faq-on-the-first-two-steps-of-the-pedac-process)
+### [7	Interview Practice Problems: Asking Questions](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#7interview-practice-problems-asking-questions)
+### [8	Create Examples / Test Cases](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#8create-examples--test-cases)
+### [9	Work with Data Structure and Algorithm](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#9work-with-data-structure-and-algorithm)
+### [10	Translate Algorithm Steps Into Code](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#10translate-algorithm-steps-into-code)
+### [11	Run Test Cases To Verify and Debug Code](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#11run-test-cases-to-verify-and-debug-code)
+### [12	Watch Others Code Series](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#12watch-others-code-series)
+### [13	Problem 1](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#13problem-1)
+### [14	Problem 2](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#14problem-2)
+### [15	Problem 3](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#15problem-3)
+### [16	Problem 4](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#16problem-4)
+### [17	Problem 5](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#17problem-5)
+### [18	Practice Problem: Swap](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#18practice-problem-swap)
+### [19	More Exercises](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#19more-exercises)
+### [20	LS215 Lesson 3 Quiz 1](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#20ls215-lesson-3-quiz-1)
+### [21	Course LS215 Feedback](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#21course-ls215-feedback)
+
 
 |  | 1st: John the Baptist | 2nd: deep-dive | 3rd: find/fill gaps |
 | :--- | :---: | :---: | :---: | 
