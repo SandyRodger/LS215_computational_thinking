@@ -3,19 +3,68 @@
 
 ## [1. String Processing Patterns](https://launchschool.com/lessons/08996120/assignments/da21fd18)
 
-- failed to save these notes.
+- Usually follows this pattern:
+  - -declare new string/array to be used as a container
+  - Break down the string, usually by char, line, sentence, word or delimiters. Remove any unnecessary chars.
+  - Apply suitable list-processing strategy.
+  - Combine results into new string (if necessary).
+- Regex are good for this.
+  - Note that Javascript does not have an `x` flag, unlike Ruby. To work around this you need to put a literal space in the group you wish to ignore:
+    - `let textArray = text.replace(/[^a-z ]/ig, '').split(' ');`
 
 ## [2.	String Methods](https://launchschool.com/lessons/08996120/assignments/deb5d37b)
 
-- failed to save these notes.
+- `indexOf()`
+- `lastIndexOf()`
+- `replace()` (returns a new string)
+- `split()`
+  - remember this will exclude the string used as a seperator.
+- `substring()`
+  -  remember this will automatically start with the lower argument, regardless of the order of arguments. So:
+  -  `string.substring(a, b) === string.substring(b, a);`
+-  `toUpperCase()` , `toLowerCase()`
 
 ## [3.	Practice Problems: Strings](https://launchschool.com/lessons/08996120/assignments/b674f41e)
 
+- 18 problems ranging from boringly easy to just easy.
+
+Q18: asks for user input
+
+```javascript
+const readlineSync = require("readline-sync");
+let name = readlineSync.prompt('What is your name?');
+
+if (name.endsWith('!')) {
+  name = name.slice(0, -1);
+  console.log('HELLO ' + name.toUpperCase() + '. WHY ARE WE SCREAMING?');
+} else {
+  console.log('Hello ' + name + '.');
+}
+```
+
+
 ## [4.Regular Expressions](https://launchschool.com/lessons/08996120/assignments/0a36d422)
+
+- Asks you to re-read the Launch School book
 
 ## [5.	Reverse a String](https://launchschool.com/lessons/08996120/assignments/27270b8d)
 
+- Easy
+
 ## [6. Acronym](https://launchschool.com/lessons/08996120/assignments/e06e683a)
+
+- 2nd go 5 minutes, no pedac.
+- Remember it adds to succinctness (though perhaps not readability) to split chained functions into new lines:
+
+```javascript
+function acronym(string) {
+  return string.replace('-', ' ')
+               .split(' ')
+               .map((word) => word[0]
+               .toUpperCase())
+               .join('');
+}
+```
 
 ## [7. Email Validation](https://launchschool.com/lessons/08996120/assignments/7bb83747)
 
@@ -77,7 +126,10 @@ function isValidEmail(email) {
   - `([a-z])+\.)` This says match any number of letters followed by a dot (which as a special character needs to be escaped by the forward slash). The round parentheses mean you can have this as many times as you want, as long as there is a single dot at the end.
   - This must be followed by more letters, so `[a-z]`. As long as this is done once, we can ignore the rest.
   - And the the end of the line `$`.
-  
+
+##### 2nd go:
+
+- I went in too cocky and got buggy code. Abandoning after an hour. Try again later.
 
 ## [8.	Matching Parentheses](https://launchschool.com/lessons/08996120/assignments/bb6d711f)
 
