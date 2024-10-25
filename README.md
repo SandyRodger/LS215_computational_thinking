@@ -33,7 +33,7 @@
 ### [19. Practice Problem: Class Records Summary](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#practice-problem-class-records-summary)
 ### [20. Don't Be Afraid to Use Low Level Abstraction](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#dont-be-afraid-to-use-low-level-abstraction)
 ### [21. More Exercises](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#more-exercises)
-### [22. LS215 Lesson 1 Quiz 1](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#ls215-lesson-1-quiz-1)]
+### [22. LS215 Lesson 1 Quiz 1](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#ls215-lesson-1-quiz-1)
 
 ## [L2: String and Text Processing](https://launchschool.com/lessons/08996120/assignments)
 
