@@ -1,39 +1,42 @@
 # LS215_computational_thinking
 
-## Capstone Introduction
-## [Introduction to the Course](https://launchschool.com/lessons/bfc761bc/assignments/9a962c82)
-## [Passing Functions as Arguments](https://launchschool.com/lessons/bfc761bc/assignments/96acf6be)
+## [L1: List Processing and Functional Abstractions](https://launchschool.com/lessons/bfc761bc/assignments)
 
-### Abstractions allow Code to specialize
 
-### Passing Functions as Arguments
+### [1. Capstone Introduction](https://launchschool.com/lessons/bfc761bc/assignments/db0064bc)
+### [2. Introduction to the Course](https://launchschool.com/lessons/bfc761bc/assignments/9a962c82)
+### [3. Passing Functions as Arguments](https://launchschool.com/lessons/bfc761bc/assignments/96acf6be)
 
-### Behaviour as Arguments to Allow abstractions
+#### Abstractions allow Code to specialize
 
-## Declarative Programming with Abstractions
+#### Passing Functions as Arguments
 
-### Imperative Style
+#### Behaviour as Arguments to Allow abstractions
+
+### [4. Declarative Programming with Abstractions](https://launchschool.com/lessons/bfc761bc/assignments/d07e9b27)
+
+#### Imperative Style
 
 -  Focusing on the steps of solving the problem.
 
-### Imperative Style with function abstractions.
+#### Imperative Style with function abstractions.
 
-### Iteration Focused Abstraction
+#### Iteration Focused Abstraction
 
-### Filter Abstraction that truly reflects the purpose
+#### Filter Abstraction that truly reflects the purpose
 
-### Declarative programming
+#### Declarative programming
 
-## List Processing Abstractions
+### [5. List Processing Abstractions](https://launchschool.com/lessons/bfc761bc/assignments/d2af4ac0)
 
 
-## [Iteration](https://launchschool.com/lessons/bfc761bc/assignments/477b4eea)
+### [6. Iteration](https://launchschool.com/lessons/bfc761bc/assignments/477b4eea)
 
 - In JS the preferred way to iterate over an element in an array is `forEach`
 
-### Return Value:
+#### Return Value:
 
-### Build it to understand it
+#### Build it to understand it
 
 ```javascript
 function myForEach(array, func) {
@@ -67,12 +70,12 @@ let getMinMax = function (value) {
 console.log(min, max);
 ```
 
-## [Filtering / Selection](https://launchschool.com/lessons/bfc761bc/assignments/c6f3935e)
+### [7. Filtering / Selection](https://launchschool.com/lessons/bfc761bc/assignments/c6f3935e)
 
 - with `filter`.
 - 
 
-## [Transformation](https://launchschool.com/lessons/bfc761bc/assignments/68c901d9)
+### [8. Transformation](https://launchschool.com/lessons/bfc761bc/assignments/68c901d9)
 
 ```javascript
 function myMap(array, func) {
@@ -86,7 +89,7 @@ let t = myMap([1, 2, 3, 4], plusOne);       // [ 2, 3, 4, 5 ]
 console.log(t)
 ```
 
-## [Reducing](https://launchschool.com/lessons/bfc761bc/assignments/32501eac)
+### [9. Reducing](https://launchschool.com/lessons/bfc761bc/assignments/32501eac)
 
 ```javascript
 function myReduce(array, func, initial) {
@@ -120,7 +123,7 @@ console.log(myReduce([5, 12, 15, 1, 6], sum, 10));            // 49
 // }
 ```
 
-## [Interrogation](https://launchschool.com/lessons/bfc761bc/assignments/c81a7804)
+### [10. Interrogation](https://launchschool.com/lessons/bfc761bc/assignments/c81a7804)
 
 - `Array.prototype.some` and `Array.prototype.every`
 
@@ -140,8 +143,8 @@ console.log(myOwnEvery(['a', 'a234', '1abc'], isAString));       // true
 
 - When you use return false inside the forEach callback, it only exits the current callback function, not the entire myOwnEvery function.
 
-## [Sort](https://launchschool.com/lessons/bfc761bc/assignments/936f8325)
-## [Combining Abstractions](https://launchschool.com/lessons/bfc761bc/assignments/6e5fb053)
+### [11. Sort](https://launchschool.com/lessons/bfc761bc/assignments/936f8325)
+### [12. Combining Abstractions](https://launchschool.com/lessons/bfc761bc/assignments/6e5fb053)
 
 ```
 let names = ['Heather', 'Gisella', 'Katsuki', 'Hua', 'Katy', 'Kathleen', 'Otakar'];
@@ -159,7 +162,7 @@ let counts = letters.reduce((obj, letter) => {
 console.log(counts)
 ```
 
-## [Functional Abstractions on Objects](https://launchschool.com/lessons/bfc761bc/assignments/37649326)
+### [13. Functional Abstractions on Objects](https://launchschool.com/lessons/bfc761bc/assignments/37649326)
 
 - `Object.keys`
 
@@ -187,7 +190,7 @@ function keepEvenValues(object) {
 console.log(keepEvenValues({ a: 1, b: 2, c: 3 })); // { b: 2 }
 ```
 
-## Practice Problem: Total Square Area
+### [14. Practice Problem: Total Square Area](https://launchschool.com/lessons/bfc761bc/assignments/54616106)
 
 ```javascript
 function totalSquareArea(array) { 
@@ -205,7 +208,7 @@ let rectangles = [[3, 4], [6, 6], [1, 8], [9, 9], [2, 2]];
 console.log(totalSquareArea(rectangles));    // 121
 ```
 
-## Practice Problem: Processing Releases
+### [15. Practice Problem: Processing Releases](https://launchschool.com/lessons/bfc761bc/assignments/801985a4)
 
 ```javascript
 function processReleaseData(data) {
@@ -219,7 +222,7 @@ let t = processReleaseData(newReleases);
 console.log(t); // [{ id: 70111470, title: 'Die Hard'}, { id: 675465, title: 'Fracture' }];
 ```
 
-## [Practice Problem: Octal](https://launchschool.com/lessons/bfc761bc/assignments/b1e4e00d)
+### [16. Practice Problem: Octal](https://launchschool.com/lessons/bfc761bc/assignments/b1e4e00d)
 
 ```javascript
 function octalToDecimal(numberString) {
@@ -236,7 +239,7 @@ function octalToDecimal(numberString) {
 }
 ```
 
-## [Practice Problem: Anagrams](https://launchschool.com/lessons/bfc761bc/assignments/b3d2a692)
+### [17. Practice Problem: Anagrams](https://launchschool.com/lessons/bfc761bc/assignments/b3d2a692)
 
 ```javascript
 function isAnagram(candidate, word) {
@@ -261,7 +264,7 @@ console.log(anagram('listen', ['enlist', 'google', 'inlets', 'banana']));   // [
 
 - LS solution uses `every` cleverly
 
-## Practice Problem: Formatting Bands
+### [18. Practice Problem: Formatting Bands](https://launchschool.com/lessons/bfc761bc/assignments/7b314293)
 
 ```
 let bands = [
@@ -309,20 +312,21 @@ console.log(processBands(bands));
 
 - I should have used `band.name = band.name.replace(/\./g, '');`
 
-## [Practice Problem: Class Records Summary](https://launchschool.com/lessons/bfc761bc/assignments/ff1533e4)
+### [19. Practice Problem: Class Records Summary](https://launchschool.com/lessons/bfc761bc/assignments/ff1533e4)
 
 
 
-## [Don't Be Afraid to Use Low Level Abstraction](https://launchschool.com/lessons/bfc761bc/assignments/4f67c44f)
+### [20. Don't Be Afraid to Use Low Level Abstraction](https://launchschool.com/lessons/bfc761bc/assignments/4f67c44f)
 
 
 
-## More Exercises
-## LS215 Lesson 1 Quiz 1
+### [21. More Exercises](https://launchschool.com/lessons/bfc761bc/assignments/0772a1d7)
+### [22. LS215 Lesson 1 Quiz 1](https://launchschool.com/lessons/bfc761bc/assignments/82333670)
+
 ![image](https://github.com/user-attachments/assets/30163f94-c812-4ac6-ac38-72704628ec74)
 ![image](https://github.com/user-attachments/assets/8a626f87-f12f-4bb8-a7b3-fb209e10de42)
 
-# [String and Text Processing](https://launchschool.com/lessons/08996120/assignments)
+## [String and Text Processing](https://launchschool.com/lessons/08996120/assignments)
 
 1	[String Processing Patterns](https://launchschool.com/lessons/08996120/assignments/da21fd18)
 
@@ -337,9 +341,9 @@ console.log(processBands(bands));
 
 5	Reverse a String
 
-## [Acronym](https://launchschool.com/lessons/08996120/assignments/e06e683a)
+### [Acronym](https://launchschool.com/lessons/08996120/assignments/e06e683a)
 
-## [Email Validation](https://launchschool.com/lessons/08996120/assignments/7bb83747)
+### [Email Validation](https://launchschool.com/lessons/08996120/assignments/7bb83747)
 
 - This problem took me 2 hours, largely because I didn't take time to understand the problem before starting to code. When will I learn? And the LS solution is depressingly concise.
 
@@ -402,11 +406,11 @@ function isValidEmail(email) {
   
 
 8	Matching Parentheses
-## [9	Sentiment Analysis 1](https://launchschool.com/lessons/08996120/assignments/46f6d954)
+### [9	Sentiment Analysis 1](https://launchschool.com/lessons/08996120/assignments/46f6d954)
 
 - Here I learnt that if you use a code block inside the `reduce` function, you must remember to return the value. Blocks do not implicitly return in JS. ALternatively you can forgo the curly braces and do it all in a callback function.
 
-## [10	Sentiment Analysis 2](https://launchschool.com/lessons/08996120/assignments/74d8d8ca)
+### [10	Sentiment Analysis 2](https://launchschool.com/lessons/08996120/assignments/74d8d8ca)
 
 - That's quite the regex:
 
@@ -414,7 +418,7 @@ function isValidEmail(email) {
 let positiveRegex = /\bfortunes?\b|\bdream(s|t|ed)?\b|love(s|d)?\b|respect(s|ed)?\b|\bpatien(ce|t)?\b|\bdevout(ly)?\b|\bnobler?\b|\bresolut(e|ion)?\b/gi;
 ```
 
-## [Mail Count](https://launchschool.com/lessons/08996120/assignments/b425bdee)
+### [Mail Count](https://launchschool.com/lessons/08996120/assignments/b425bdee)
 
 - This was a good refresher on how to run code in the browser, I should do this more.
 - In this problem I learnt how to create an 'options' object, to determine how to format a date object:
