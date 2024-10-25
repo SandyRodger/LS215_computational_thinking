@@ -168,16 +168,16 @@ function getDateObjects(dates) {
 }
 ```
 
-### [12. Code Review: Longest Sentence](https://launchschool.com/lessons/08996120/assignments/ef3b41db)
+## [12. Code Review: Longest Sentence](https://launchschool.com/lessons/08996120/assignments/ef3b41db)
 
 
 - I will go over this again when I have a fresh brain.
 
-### [13	Reference Solution: Longest Sentence](https://launchschool.com/lessons/08996120/assignments/ef3b41db)
-### [14	More Exercises](https://launchschool.com/lessons/08996120/assignments/2986a10c)
+## [13	Reference Solution: Longest Sentence](https://launchschool.com/lessons/08996120/assignments/ef3b41db)
+## [14	More Exercises](https://launchschool.com/lessons/08996120/assignments/2986a10c)
 
 - done
 
-### [15	LS215 Lesson 2 Quiz 1](https://launchschool.com/lessons/08996120/assignments/dcc8e445)
+## [15	LS215 Lesson 2 Quiz 1](https://launchschool.com/lessons/08996120/assignments/dcc8e445)
 
 4/6 - I heavily relied on MDN and ChatGPT, so I need to go over this a few times until these distinctions are clear in my mind. 
