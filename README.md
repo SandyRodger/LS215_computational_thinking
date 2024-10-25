@@ -526,3 +526,9 @@ Topic	Status
 19	More Exercises	Not completed
 20	LS215 Lesson 3 Quiz 1	Not completed
 21	Course LS215 Feedback
+
+|  | 1st: John the Baptist | 2nd: deep-dive | 3rd: find/fill gaps |
+| :--- | :---: | :---: | :---: | 
+| L1 | ? |||
+| L2 | ? |||
+| L3 | ? |||
