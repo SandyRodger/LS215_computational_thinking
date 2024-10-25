@@ -39,7 +39,7 @@
 ### [8. Transformation](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#transformation)
 
 
-### [9. Reducing]([https://launchschool.com/lessons/bfc761bc/assignments/32501eac](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#reducing))
+### [9. Reducing](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#reducing)
 
 ### [10. Interrogation](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L1_list_processing_and_functional_abstractions.md#interrogation )
 
