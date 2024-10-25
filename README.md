@@ -76,9 +76,9 @@
 
 ### [5.	Reverse a String](https://launchschool.com/lessons/08996120/assignments/27270b8d)
 
-#### [6. Acronym](https://launchschool.com/lessons/08996120/assignments/e06e683a)
+### [6. Acronym](https://launchschool.com/lessons/08996120/assignments/e06e683a)
 
-#### [7. Email Validation](https://launchschool.com/lessons/08996120/assignments/7bb83747)
+### [7. Email Validation](https://launchschool.com/lessons/08996120/assignments/7bb83747)
 
 
 
@@ -100,7 +100,7 @@
 ### [1	The "PEDAC" Problem Solving Process](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#1the-pedac-problem-solving-process)
 ### [2	PEDAC Video Walkthrough](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#2pedac-video-walkthrough)
 ### [3	An Example Problem: Comparing Version Numbers](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#3an-example-problem-comparing-version-numbers)
-### [4	Understand the Problem and Requirements (1)(https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#4understand-the-problem-and-requirements-1)
+### [4	Understand the Problem and Requirements (1)(]https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#4understand-the-problem-and-requirements-1)
 ### [5	Understand the Problem and Requirements (2)](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#5understand-the-problem-and-requirements-2)
 ### [6	FAQ on the First Two Steps of the PEDAC Process](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#6faq-on-the-first-two-steps-of-the-pedac-process)
 ### [7	Interview Practice Problems: Asking Questions](https://github.com/SandyRodger/LS215_computational_thinking/blob/main/L3_a_general_problem_solving_approach.md#7interview-practice-problems-asking-questions)
