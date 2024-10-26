@@ -80,5 +80,5 @@
 |  | 1st: John the Baptist | 2nd: deep-dive | 3rd: find/fill gaps |
 | :--- | :---: | :---: | :---: | 
 | L1 | ? | 25. 10. 24||
-| L2 | ? |||
+| L2 | ? | 26. 10. 24||
 | L3 | ? |||
