@@ -240,5 +240,20 @@ function getDateObjects(dates) {
 
 4/6 - I heavily relied on MDN and ChatGPT, so I need to go over this a few times until these distinctions are clear in my mind. 
 
-- Attempt 2 (26.10.24) :
-  - 
+- Attempt 2 (26.10.24) : 2/6 (but no MDN/ChatGPT)
+
+1. A, B, C, (D will return an index) CORRECT
+2. A (needs a global flag) CORRECT
+3. A, B, D 
+  - A: should not be included in the answer because it will include empty strings wherever words are seperated by more than one space.
+  - C should be included in the answer because even without the global flag the match method always returns an array even if there's only one word in it.
+4. A, C, E
+  - Not A: String.includes cannot take a regex
+  - Yes B: String.match is a real method and takes a regex
+  - Yes D: String.dearch can also take a regex
+5. C
+  - Not C: 2nd index is not endIndex, but subString length
+  - Yes B: In the String.substring method the first argument is the starting index but the second argument is length of substring
+6. B, D, F
+  - Not D: `str.match(/\w+/g)` returns the entire string
+  - Nor F: `str.split(/_+/)` can only handle the case that the word begins or ends with an underscore, but the question (rather vaguely) implies ("with a maximum of one token per element") that where words are seperated by more than one underscore, the extra underscores are counted as part of the words. (... I think)
