@@ -133,9 +133,13 @@ function isValidEmail(email) {
 
 ## [8.	Matching Parentheses](https://launchschool.com/lessons/08996120/assignments/bb6d711f)
 
+  - 1st go: 2 hours
+  - 2nd go: 1 hour
+    - I used a clever regex match method to extract the parentheses, but it didn't actually make the code more succinct. The original solution was 7 lines shorter.
+    
 ## [9	Sentiment Analysis 1](https://launchschool.com/lessons/08996120/assignments/46f6d954)
 
-- Here I learnt that if you use a code block inside the `reduce` function, you must remember to return the value. Blocks do not implicitly return in JS. ALternatively you can forgo the curly braces and do it all in a callback function.
+- Here I learnt that if you use a code block inside the `reduce` function, you must remember to return the value. Blocks do not implicitly return in JS. Alternatively you can forgo the curly braces and do it all in a callback function.
 
 ## [10	Sentiment Analysis 2](https://launchschool.com/lessons/08996120/assignments/74d8d8ca)
 
@@ -222,14 +226,19 @@ function getDateObjects(dates) {
 
 ## [12. Code Review: Longest Sentence](https://launchschool.com/lessons/08996120/assignments/ef3b41db)
 
-
 - I will go over this again when I have a fresh brain.
+- In second go through I found that my solution will not cover most of the test suite. This is because I focused on trying to solve the test cases, rather than match the instructions exactly. Having read a few of the solutions I want to allow myself a few days to forget them before attempting a third time and submitting it to be reviewed (26.10.24).
 
 ## [13	Reference Solution: Longest Sentence](https://launchschool.com/lessons/08996120/assignments/ef3b41db)
+
+
 ## [14	More Exercises](https://launchschool.com/lessons/08996120/assignments/2986a10c)
 
-- done
+- done... once
 
 ## [15	LS215 Lesson 2 Quiz 1](https://launchschool.com/lessons/08996120/assignments/dcc8e445)
 
 4/6 - I heavily relied on MDN and ChatGPT, so I need to go over this a few times until these distinctions are clear in my mind. 
+
+- Attempt 2 (26.10.24) :
+  - 
