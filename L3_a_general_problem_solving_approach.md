@@ -2,8 +2,30 @@
 
 - Why are we going over this now ?
 - Answer : because we're going to do harder problems and need to do more extensive PEDAC.
+- [Article1](https://medium.com/launch-school/solving-coding-problems-with-pedac-29141331f93f) (EXCELLENT): Solving Coding problems with PEDAC:
+  - PEDAC can be a "gateway concept for more formal agorithmic techniques to problem solving"
+  - Edge cases to be tested for need to focus on:
+    -  elements at the end of ranges. For instance in 1 - 20 have a test case where 19 is the target.
+-  [Article 2](https://medium.com/launch-school/javascript-weekly-using-a-structured-problem-solving-approach-fb9cce41ba5a) i've read half
 
 ## [2	PEDAC Video Walkthrough	](https://launchschool.com/lessons/28467827/assignments/c461b845)
+
+### Understanding the problem
+
+- No half-arsing steps.
+- Now ew need to ask questons + write test cases.
+- It's now important how you solve it, not just if.
+- If the problem is easily within your abilities, use PEDAC anyway to be impressive and in total control.
+- If you find yourself struggling try to note which steps and which part of the step tripped you up.
+
+### Examples and test cases
+
+- can you figure out the missing pieces?
+- Will you make assumptions?
+- Imagine you are given a probelm in a real company. Are you going to figure it out on your own or will you need to be micro-managed?
+- Because there is going to be missing information you need to find the right questions. Get this stage wrong and you may well end up answering the wrong question! The interviewer will not stop you from progressing with an incorrect model.
+- Translate your assumptions and the question (implicit and explicit rules) into explicit rules.
+- eg. What does "attack" mean in this chess problem.
 
 ### Data:
 
@@ -56,9 +78,18 @@ function queenAttack(board) {
   - To use/know the `Math.abs` method to find the abolute difference between the rows and columns.
   - To use `.indexOf` to return the index of the queen in the row, without iterating through the whole row.
 
-## [3	An Example Problem: Comparing Version Numbers	]()
-## [4	Understand the Problem and Requirements (1)	]()
-## [5	Understand the Problem and Requirements (2)	]()
+## [3	An Example Problem: Comparing Version Numbers	](https://launchschool.com/lessons/28467827/assignments/a1b86a45)
+
+- 2nd go through. I'm not sure how thoroughly I studied this 1st time round. It's quite long and I'm not great at remaining focused during videos, so perhaps not very thoroughly. Ditto for the following 2 pages.
+
+## [4	Understand the Problem and Requirements (1)	](https://launchschool.com/lessons/28467827/assignments/a4355038)
+
+- 2nd time skip.
+
+## [5	Understand the Problem and Requirements (2)	](https://launchschool.com/lessons/28467827/assignments/ecf74eab)
+
+- 2nd time skip.
+
 ## [6	FAQ on the First Two Steps of the PEDAC Process	](https://launchschool.com/lessons/28467827/assignments/c461b845)
 
 ### Can I ever skip the P ?
