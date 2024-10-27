@@ -22,7 +22,7 @@
 
 - can you figure out the missing pieces?
 - Will you make assumptions?
-- Imagine you are given a probelm in a real company. Are you going to figure it out on your own or will you need to be micro-managed?
+- Imagine you are given a problem in a real company. Are you going to figure it out on your own or will you need to be micro-managed?
 - Because there is going to be missing information you need to find the right questions. Get this stage wrong and you may well end up answering the wrong question! The interviewer will not stop you from progressing with an incorrect model.
 - Translate your assumptions and the question (implicit and explicit rules) into explicit rules.
 - eg. What does "attack" mean in this chess problem.
@@ -97,7 +97,7 @@ function queenAttack(board) {
 - No (I think - it's not explicitly stated), but the amount of time spent here depends on the complexity of the problem. It's about translating the problem into:
   - definitions
   - rules
-- Ask yourself: 'are the requirements already given as "technical terms" or only demonstrated. What is expressed as a higher problem domain or do they contain implicit knowledge that needs to be teased out?
+- Ask yourself: 'are the requirements already given as "technical terms" or only demonstrated. What is expressed as a higher problem domain and where is implicit knowledge referenced that needs to be teased out?
 
 ### Where to begin ?
 
@@ -114,7 +114,7 @@ function queenAttack(board) {
 ### How do I write good ones
 
 - **Input types:**
-  - Can the function handle different types of inputs (stirngs? Booleans? etc)
+  - Can the function handle different types of inputs (strings? Booleans? etc)
 - **Special Values:**
   - If the input is a ...
     - Number, does it work with:
@@ -133,7 +133,7 @@ function queenAttack(board) {
 -  **Valid/invalid inputs:**
   -  What should we consider invalid? And what should we do with them ?
     -  For example if we're told the input is a "word", can it have non-letter chars?
-    -  Should we rteturn a `null` or `undefined` if it's invalid?
+    -  Should we return a `null` or `undefined` if it's invalid?
     -  Should we consider letter case?
     - what if input is omitted?
       - Have a default parameter?
