@@ -8,7 +8,9 @@ P: Rewrite problem in your own words
 
 E: Analyse Examples
 
-D: Objects/Arrays? 
+D: 
+
+
 
 A: - blocks (arrays are shelves, Objects are coat hooks)
 
