@@ -8,15 +8,18 @@
     -  elements at the end of ranges. For instance in 1 - 20 have a test case where 19 is the target.
 -  [Article 2](https://medium.com/launch-school/javascript-weekly-using-a-structured-problem-solving-approach-fb9cce41ba5a) i've read half
 
-## [2	PEDAC Video Walkthrough	](https://launchschool.com/lessons/28467827/assignments/c461b845)
+## [2	PEDAC Video Walkthrough	](https://launchschool.com/lessons/28467827/assignments/6738e84a)
 
 ### Understanding the problem
 
 - No half-arsing steps.
-- Now ew need to ask questons + write test cases.
+  - with harder problems, the consequences of skipping steps are worse.
+- Now you need to ask questons + write test cases.
+  - You'll be given less and tested  more.
 - It's now important how you solve it, not just if.
 - If the problem is easily within your abilities, use PEDAC anyway to be impressive and in total control.
-- If you find yourself struggling try to note which steps and which part of the step tripped you up.
+  - It will improve your performance and the perception of your performance.,
+- If you find yourself struggling try to note which step and which part of the step tripped you up.
 
 ### Examples and test cases
 
@@ -29,11 +32,53 @@
 
 ### Data:
 
-- The problems are larger, so we'll have more complex data-structures
-- Choosing the wrong data-structure can lead to a dead-end.
-- It's all about thinking which methods fit your problem. Also, what type of objects will you use.
-  - Compound data-structures are also to be considered.
-- We don't want to be switching mid-algorithm.
+- 1st pass
+  - The problems are larger, so we'll have more complex data-structures
+  - Choosing the wrong data-structure can lead to a dead-end.
+  - It's all about thinking which methods fit your problem. Also, what type of objects will you use.
+    - Compound data-structures are also to be considered.
+  - We don't want to be switching mid-algorithm.
+- 2nd pass
+  - Objects/Arrays?  
+  - This is the point where the wrong choice can lead to a dead-end down the line.
+  - Having the right data structure can make your coding more intuitive and easier.
+  - How will you represent input? Will you take it as it is, or will you need to change it before working on it.
+  - what will the output be?
+  - What are the intermediate steps.
+  - Look at the rules: these provide hints about what data-structures you will need.
+  - Consider the tools available to Objects v Arrays
+  - Objects:
+    -  allow for lookup functionality
+  -  Arrays:
+    -  make sorting easier.
+  - consider how objects may contain other objects.
+
+### Algorithm
+
+- It's just more complicated, and the stakes are higher.
+- Also we will need to account more for edge cases. Not just happy path.
+- You will not be able to hold the whole problem in your "working-memory".
+- Incomplete algorithms make it much more serious and likely that you'll get stuck.
+- FULLY SEPARATE LOGICAL AND PROCEDURAL.
+  - DON'T think about methods or syntax while logically solving the problem.
+  - Don't think about coding language
+- If you have solved the problem logically from start to finish, then you can trust that your code will work.
+- More abstraction for larger sub-problems.
+- fluency is really important.
+  - if you're building something that already exists that's a waste of time.
+  - fluency also means being able to use aspects of the language that are built for abstraction.
+  - (You can talk about mapping logic without having talked about the code. Or splitting logic).
+  - VERIFY YOUR ALGORITHM BEFORE CODING:
+    -  take at least one test case and walk it through the algo.
+    -  Catch:
+      -  test cases
+      -  overseen problems
+
+- High level
+  - numbered?
+  - main algorithm then helper algorithms
+
+### Chess-queens problem
 
 - LS solution:
 
