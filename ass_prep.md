@@ -1,20 +1,20 @@
 ## [Interview Practice Problems: Asking Questions](https://launchschool.com/lessons/28467827/assignments/cec18cce)
 
 ## My PEDAC:
-
-Q: questions.
     
 P: Rewrite problem in your own words
+    Inputs/Outputs:
+    R: rules
+    Q: questions & answers
 
 E: Analyse Examples
+    T: create test cases ( the interviewer will not be able to answer "have I covered all of the edge cases, but they can tell you if a test should return true or false)
 
 D: 
 
 
 
-A: - blocks (arrays are shelves, Objects are coat hooks)
-
-A: - Forklifts
+A: -
 
 A: - with coding terms
 
