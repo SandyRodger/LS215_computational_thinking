@@ -90,4 +90,22 @@ T: test cases
 
 ### Things to include in the assessment:
 
-    - save callbacks in different variables, so that the function can adapt to different use cases. Pass functions as arguments.e
+    - save callbacks in different variables, so that the function can adapt to different use cases. Pass functions as arguments.
+
+### Mattic 2.11.24
+
+- Practice questions:
+    - https://edabit.com/user/6vfjruFp8ZpRSi3AT
+    - https://edabit.com/collection/SjWvg4gA8vpgZnLL7
+    - https://edabit.com/collection/QcMwhyqrjLzqupHj4
+    - https://ryandej.medium.com/ls216-practice-problems-e68c3df04be4
+  - Max 10 test cases
+  - Hacker Rank problems
+  - Lots of problems to do with Object manipulation
+  - Find the flow chart in the course of what to ask when given information.
+  - Even with good question asking that reveal the implicit requirements, expect for there to be extra test cases. So expect your solution to be rendered incomplete.
+  - (Time limit is soft)
+  - People fail because they panic
+  - Problem will be surprisingly easy - this is a trap.
+  - You may have to do a 2nd pedac - but you can sort of rush it (?)
+  - deffo reach out to other students.
