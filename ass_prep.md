@@ -109,3 +109,137 @@ T: test cases
   - Problem will be surprisingly easy - this is a trap.
   - You may have to do a 2nd pedac - but you can sort of rush it (?)
   - deffo reach out to other students.
+
+### Derek Novak 3.11.24
+
+```javascript
+// Create a function that counts the amount of subarrays in a 2D array that contain the same elements as a given array.
+
+// console.log(sameElements([[1, 2, 3], [2, 3, 4], [3, 1, 2]], [1, 2, 3]) === 2);
+
+/*
+Questions & answers:
+
+- Do not consider sparse arrays.
+- The subarrays in arg1 and the array of arg2 will only contain primitive values.
+
+P:
+
+Write a function which takes 2 arguments (both arrays - possibly 2D)
+This function will output an integer reflecting how many subarrays from arg1 contain the same (type and value) elements as the elements in arg2.
+
+Rules:
+
+- I am allowed to mutate the input.
+
+Output:
+Integer <
+Null if 1st argument is an empty array
+If the 2nd arg is empty return the length of the 1st arg.
+
+E:
+
+sameElements([[1, 2, 3], [2, 3, 4], [3, 1, 2]], [1, 2, 3]) === 2;
+
+- sorting logic?
+
+D:
+
+Arrays
+looping
+helper function: 
+  - containsSameElements(array1, array2)
+
+  [[1, 2, 3], [2, 3, 4], [3, 1, 2]] // [1, 2, 3]
+
+[]
+testArray = [1, 2, 3]
+
+A:
+
+LOOP: filter nestedArray
+  - look at each subarray & pass it into a helper function:
+
+  HELPER FUNCTION: containsSameElements(subArray, testArray)
+
+  - while testArray isn't empty
+  - take (and delete) each element from testArray (n)
+    - if n is included in subArray
+      - delete it from subArray
+    - if not 
+      - return false
+
+  - return true 
+
+- return the length of the filtered array.
+
+C:
+*/
+
+function containsSameElements(subArray, testArray) {
+
+  while (testArray.length) {
+    let n = testArray.shift()
+    if (subArray.includes(n)) {
+      subArray.splice(subArray.indexOf(n), 1);
+    } else {
+      return false
+    }
+  }
+  return true
+}
+
+function sameElements(nestedArray, testArray) {
+  if (nestedArray.length === 0) {return null};
+
+  return nestedArray.filter((subArray) => {
+    return containsSameElements(subArray, [...testArray]);
+  }).length
+}
+
+// console.log(containsSameElements([1, 2, 3], [1, 2, 3])); // true
+// console.log(containsSameElements([1, 3, 2], [1, 2, 3])); // true
+// console.log(containsSameElements([1, 2], [1, 2, 3])); // false
+// console.log(containsSameElements([1, 3, 2], [1, 3])); // true
+// console.log(containsSameElements([1, 3, 2, 4], [1, 2, 3])); // true
+
+// Happy Path
+console.log(sameElements([[1, 2, 3], [2, 3, 4], [3, 1, 2]], [1, 2, 3]) === 2);
+// Duplicate 1st arg
+console.log(sameElements([[1, 2, 3, 1], [2, 3, 4], [3, 1, 2]], [1, 2, 3]) === 2);
+// Primitives
+console.log(sameElements([["false"]], [false]) === 0);
+console.log(sameElements([["1"]], [1]) === 0);
+
+console.log('-- Additional --')
+
+console.log(sameElements([[1, 2, 3], [2, 3, 4], [3, 1, 2]], [1, 1, 2, 3]) === 0);
+console.log(sameElements([[1, 2, 3, 1], [2, 3, 4], [3, 1, 2]], [1, 2, 3]) === 2);
+console.log(sameElements([['1', 2, 3], [2, 3, 4], [3, 1, 2]], [1, 2, 3]) === 1);
+console.log(sameElements([[null, false, true], ['string', true, true], [false, 29, null]], [null, false]) === 2);
+console.log(sameElements([[1, 2, 3], [2, 3, 4], [3, 1, 2]], []) === 3);
+console.log(sameElements([[]], [1, 2, 3]) === 0);
+console.log(sameElements([], [1, 2, 3]) === null);
+
+Start: 9:10
+DS: 9:24
+Alg: 9:27
+Code: 9:51
+End: 10:10
+
+Good:
+- I like that you took a mental break and communicated that well
+- Great job catching the mistake of not looking at the 2nd test case, then fixing your algorithm accordingly
+- Utilized a great higher-level algorithm
+
+Improvements:
+- Devise a list of questions to always ask as part of the Problem section
+- List all responses in the rules section
+    - Create test cases from these
+- Create more test cases before moving onto data structure
+    - Label the test cases you create
+- Play around with the code before constructing an algorithm
+- When walking through algorithm, use a test case
+- Watch out for missed semi-colons
+- Any quick checks you make by altering the code, fix them afterwards so you don't forget
+///
