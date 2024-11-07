@@ -243,3 +243,22 @@ Improvements:
 - Watch out for missed semi-colons
 - Any quick checks you make by altering the code, fix them afterwards so you don't forget
 ///
+```
+
+## [Antonina's assessment feedback](https://launchschool.com/interviews/d55245d5)
+
+Interview: The Interview (Course: LS216) - Passed
+
+Technical Grade	Non-Technical Grade	Duration	Date	
+B+	A+	62 minutes	November 7, 2024 at 10:00am GMT	View (staff only)
+Congratulations on passing this assessment, Sandy!
+
+Overall, this was an excellent performance. You were polite, articulate and collected throughout the interview, even when things weren't working out your way. You asked good questions, created a good set of test cases to cover some edge cases and rules you found out about, and wrote a solid algorithm for the functions you intended to build.
+
+That said, there were some logical gaps in your algorithm, which came back to haunt you when you were coding. Thankfully, you approached each error and bug calmly and methodically, by taking a step back from coding to reason through each problem and debugging well when necessary. Ultimately, you came up with clever workarounds for each of the issues you encountered and managed to solve the problem fully after ~57 minutes. You also remained communicative throughout this time, which helped me a lot in following along.
+
+My one recommendation for improvement at this point would be to keep practising so that you can achieve the same good results more quickly. You spent about 22 minutes on the problem analysis, asking questions and taking notes, which left you with only 18 minutes to create an algorithm and code the problem - with everything that entails. Minimize your notes to the absolutely necessary, grouping them all together in one place to save yourself some time from scouting around when you need them later. Additionally, I recommend prioritizing the test cases over asking questions. That means, start by looking at the test cases after you've read the problem once or twice, and after you've gotten all you can from the given tests, ask any further questions that might remain unanswered.
+
+Otherwise, you did a great job today. Keep it up! You may move on to the next course now.
+
+Verdict was added on Nov 7, 2024 at 07:20 AM EST by Antonina
